@@ -1,0 +1,80 @@
+.container{
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 200px auto 200px;
+    justify-content: space-between;
+    background-color: #161f28;
+    grid-template-areas: 
+    "header header header"
+    ". content ."
+    "footer footer footer";
+}
+
+.header {
+    display: grid;
+    position: sticky;
+    grid-area: header;
+    align-items: center;
+    background-color: #161f28;
+    width: 100%;
+    height: 3rem;
+    top: 0;
+    bottom: auto;
+    box-shadow: 3.4px 3.4px 2.7px rgba(0, 0, 0, 0.031),
+                8.7px 8.7px 6.9px rgba(0, 0, 0, 0.044),
+                17.7px 17.7px 14.2px rgba(0, 0, 0, 0.056),
+                36.5px 36.5px 29.2px rgba(0, 0, 0, 0.069),
+                100px 100px 80px rgba(0, 0, 0, 0.08);
+    grid-template-columns: 200px auto 200px;
+    grid-template-areas: "nametag navbar contact";
+}
+
+.content {
+    grid-area: content;
+    background-color: #161f28;
+    width: 100%;
+    height: 100vh;
+}
+
+.footer {
+    height: 400px;
+    grid-area: footer;
+    background-color: red;
+}
+
+.nametag{
+    display: grid;
+    justify-content: center;
+    grid-area: nametag;
+    color: #ffffff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    grid-area: navbar;
+    color: #ffffff;
+    list-style-type: none;
+}
+
+.contact{
+    display: grid;
+    justify-content: center;
+    grid-area: contact;
+    color: #ffffff;
+    justify-items: end;
+}
+
+li{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color: #FF4C01;
+    font-size: 17px;
+}

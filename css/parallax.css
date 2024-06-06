@@ -8,3 +8,10 @@
     background-size: cover;
     background-attachment: fixed;
 }
+.bio{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
