@@ -1,7 +1,7 @@
 .container{
     display: grid;
     grid-template-columns: 200px auto 200px;
-    grid-template-rows: 200px auto 200px;
+    grid-template-rows: 75px auto 200px;
     justify-content: space-between;
     background-color: #161f28;
     grid-template-areas: 
