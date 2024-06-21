@@ -7,12 +7,25 @@
     <link rel="stylesheet" href="css/parallax.css">
     <link rel="stylesheet" href="css/container.css">
     <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <title>Portofolio | Carverra</title>
 </head>
 <body>
     <div class="parallax">
-
+        <div class="hero">
+            <img src="resource/img/profil.png" alt="Profil">
+        </div>
+        <div class="text-parallax">
+            <p>Hello, my virtual nickname is Carverra. I am a student at Bina Sarana Informatika University. I took the Information Systems study program. I created this page to make it easier for other people to access my CV.</p>
+            <div class="parallax-smi">
+                <a href="http://facebook.com"><img src="resource/svg/facebook.svg" alt="facebook"></a>
+                <a href="https://www.instagram.com/rav_412/"><img src="resource/svg/instagram.svg" alt="instagram"></a>
+                <a href="https://github.com/Carverra"><img src="resource/svg/Github.svg" alt="Github"></a>
+                <a href="https://www.youtube.com/"><img src="resource/svg/youtube.svg" alt="Youtube"></a>
+                <a href="https://x.com/"><img src="resource/svg/twitter.svg" alt="Twitter"></a>
+            </div>
+        </div>
     </div>
     <div class="container">
         <div class="header">
@@ -20,15 +33,33 @@
                 <a href="#" alt="Carverra">Carverra</a>
             </div>
             <div class="navbar">
-                <li><a href="#">Home</a></li>
+                <li><a href="#about-me">About</a></li>
                 <li><a href="#">Certificate</a></li>
                 <li><a href="#">Project</a></li>
             </div>
             <div class="contact">
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
             </div>
         </div>
         <div class="content">
+            <h1 id="about-me">About Me</h1>
+            <div class="biodata">
+                <div class="title">
+                    <h3>Biodata</h3>
+                </div>
+                <div class="description">
+                    <li><p>Nama</p></li>
+                    <li><p>M. Rafi Ardana Listi</p></li>
+                </div>
+                <div class="description">
+                    <li><p>Nickname</p></li>
+                    <li><p>Carverra</p></li>
+                </div>
+                <div class="description">
+                    <li><p>Status</p></li>
+                    <li><p>Mahasiswa</p></li>
+                </div>
+            </div>
             <div class="riwayat">
                 <div class="title">
                     <h3>Riwayat Pendidikan</h3>
@@ -71,8 +102,68 @@
                     <li><p>PT. Sumber Alfaria Trijaya Tbk</p></li>
                 </div>
             </div>
+            <div class="kontak">
+                <div class="title">
+                    <h3>Kontak</h3>
+                </div>
+                <div class="description">
+                    <li><p>Email</p></li>
+                    <li><p>mrafiardanalisti@gmail.com</p></li>
+                </div>
+                <div class="description">
+                    <li><p>Instagram</p></li>
+                    <li><p>@rav_412</p></li>
+                </div>
+                <div class="description">
+                    <li><p>Github</p></li>
+                    <li><p>https://github.com/Carverra</p></li>
+                </div>
+            </div>
         </div>
-        <div class="footer"></div>
+        <div class="footer">
+            <h2 id="contact">Contact</h2>
+            <div class="email-me">
+                <li><div class="form-email">
+                        <div class="message-title">
+                            <h3>Message</h3>
+                        </div>
+                        <form action="">
+                            <div class="message-form">
+                                <label for="nama">Name *</label>
+                                <input type="text" placeholder="Your name">
+                            </div>
+                            <div class="message-form">
+                                <label for="email">Email *</label>
+                                <input type="text" placeholder="Your email">
+                            </div>
+                            <div class="message-form">
+                                <label for="message">Send Message *</label>
+                                <input type="textarea" placeholder="Your message">
+                            </div>
+                            <div class="message-form">
+                                <input type="button" id="" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </li>
+                <li><div class="kontak-lite">
+                        <div class="kontak-title">
+                            <h3>Get in touch</h3>
+                        </div>
+                        <div class="social-media">
+                            <h4>You can contact me via my social media below.</h4>
+                            <a href="http://facebook.com"><img src="resource/svg/facebook.svg" alt="facebook"></a>
+                            <a href="https://www.instagram.com/rav_412/"><img src="resource/svg/instagram.svg" alt="instagram"></a>
+                            <a href="https://github.com/Carverra"><img src="resource/svg/Github.svg" alt="Github"></a>
+                            <a href="https://www.youtube.com/"><img src="resource/svg/youtube.svg" alt="Youtube"></a>
+                            <a href="https://x.com/"><img src="resource/svg/twitter.svg" alt="Twitter"></a>
+                            <h4>buy me a coffee</h4>
+                            <a href="https://ko-fi.com/carverra"><img src="resource/svg/Kofi.svg" alt="Ko-fi"></a>
+                        </div>
+                    </div>
+                </li>
+            </div>
+        </div>
     </div>
 </body>
 </html>
