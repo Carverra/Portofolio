@@ -2,15 +2,15 @@
     display: grid;
     grid-area: content;
     height: 100%;
+    background-color: #161f28 ;
 }
 
-.riwayat, .experience{
+.riwayat, .experience, .kontak, .biodata{
     padding: 20px;
     margin-bottom: 30px;
     width: 600px;
     color: #ffffff;
     border-radius: 30px;
-    background-color: #161f28 ;
     background: linear-gradient(90deg, #1d3036 -2%, #1a2530 80%);
     box-shadow: 3.4px 3.4px 2.7px rgba(0, 0, 0, 0.031),
     8.7px 8.7px 6.9px rgba(0, 0, 0, 0.044),
@@ -38,14 +38,22 @@
     justify-content: space-between;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-h3{
+h3 {
     font-size: 21px;
 }
 
-p{
+p {
     font-size: 13px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
 }

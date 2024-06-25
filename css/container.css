@@ -39,7 +39,6 @@
 .footer {
     height: 400px;
     grid-area: footer;
-    background-color: red;
 }
 
 .nametag{
